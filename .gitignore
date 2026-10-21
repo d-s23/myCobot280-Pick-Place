@@ -1,0 +1,10 @@
+# MATLAB generated files
+*.m
+
+# Prequisite files:
+*.urdf
+*.m
+
+# Generated trajectory and recording data
+robot_trajectory_and_gripper_data.mat
+*.mat
