@@ -29,11 +29,17 @@ Exact MATLAB release, ROS 2 distribution, and robot configuration should be docu
 
 ## Project Structure
 
-mycobot-trajectory-controller/
+```text
+mycobot_pickAndPlace/
 ├── README.md
-├── mycobot_trajectory_controller.m
+├── mycobot_trajectory_controller_pickAndPlace.mlx
+├── gripper_state_callback.m
+├── itree_one_way_interface.m
+├── joint_state_callback.m
+├── mycobot_280_no_sbc_aligned.urdf
 └── mycobot_280_no_sbc/
     └── Robot description and required resources
+```
 
 The helper functions may instead be defined as local functions in the main MATLAB file. Include all required URDF, mesh, and other robot-description resources.
 
